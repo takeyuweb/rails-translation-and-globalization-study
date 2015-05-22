@@ -43,3 +43,10 @@ group :development, :test do
   gem 'spring'
 end
 
+# Customize
+# DBデータの他言語化
+gem 'globalize', '~> 5.0.1'
+# Accept-Language ヘッダを配列にマッピング
+gem 'http_accept_language', '~> 2.0.5'
+# Microsoft Translator API で翻訳
+gem 'microsoft_translator', '~> 0.2.0'

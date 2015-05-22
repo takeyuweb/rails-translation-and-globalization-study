@@ -8,6 +8,10 @@
 </head>
 <body>
 
+<% I18n.available_locales.each do |locale| %>
+    [<%= link_to locale.to_s, locale: locale %>]
+<% end %>
+
 <%= yield %>
 
 </body>
